@@ -1,0 +1,9 @@
+# Source originals (8K/PNG masters) — not needed for the live site
+real-detail/
+
+# Local agent/project notes — keep private
+.claude/
+
+# macOS cruft
+.DS_Store
+**/.DS_Store

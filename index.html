@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0b" />
+  <title>Rio.Details — Premium Mobile Detailing | Metro Detroit</title>
+  <meta name="description" content="Premium mobile detailing for drivers who take pride in their vehicles. Teslas, trucks, family SUVs and daily drivers — we come to you across Metro Detroit." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rio.Details — Premium Care For Vehicles Worth Protecting" />
+  <meta property="og:description" content="Mobile detailing for people who care about their vehicles — Teslas, trucks, family SUVs and daily drivers. We come to you across Metro Detroit." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/01_hero_tesla_model_y_performance_f150_lariat.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rio.Details — Premium Care For Vehicles Worth Protecting" />
+  <meta name="twitter:image" content="assets/img/01_hero_tesla_model_y_performance_f150_lariat.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=2" />
+
+  <!-- Structured data: LocalBusiness for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoDetailing",
+    "name": "Rio.Details",
+    "description": "Premium mobile detailing in Metro Detroit for Teslas, trucks, SUVs and daily drivers.",
+    "image": "assets/img/01_hero_tesla_model_y_performance_f150_lariat.jpg",
+    "areaServed": "Metro Detroit, Michigan",
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "40"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" aria-hidden="true"><span data-scroll-bar></span></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" data-nav>
+    <div class="nav__inner">
+      <a href="#top" class="brand" aria-label="Rio.Details home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">RIO<span class="brand__dot">.</span>DETAILS</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#tesla">Tesla</a>
+        <a href="#transformations">Transformations</a>
+        <a href="#services">Services</a>
+        <a href="#beyond">Ownership</a>
+        <a href="#reviews">Reviews</a>
+      </nav>
+      <a href="#book" class="btn btn--primary nav__cta">Book Your Detail</a>
+      <button class="nav__toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" data-hero>
+      <div class="hero__stage" aria-hidden="true">
+        <!-- Real photography: a freshly detailed Tesla & F-150 in the driveway, grime lifting to gloss on scroll -->
+        <div class="hero__scene">
+          <picture class="hero__photo">
+            <source type="image/webp" srcset="assets/img/01_hero_tesla_model_y_performance_f150_lariat.webp" />
+            <img src="assets/img/01_hero_tesla_model_y_performance_f150_lariat.jpg" alt="" width="1920" height="1081" fetchpriority="high" decoding="async" />
+          </picture>
+          <div class="hero__grime" data-hero-grime></div>
+          <div class="hero__sheen" data-hero-sheen></div>
+        </div>
+        <div class="hero__vignette"></div>
+      </div>
+
+      <div class="hero__content container">
+        <p class="eyebrow" data-reveal>Premium Mobile Detailing — Metro Detroit</p>
+        <h1 class="hero__title" data-reveal>
+          Premium Care For Vehicles<br />Worth <em>Protecting</em>
+        </h1>
+        <p class="hero__sub" data-reveal>
+          For drivers who take pride in what they drive — Teslas, trucks, family
+          SUVs and daily drivers. We come to you, and we treat every vehicle like
+          it's our own.
+        </p>
+        <div class="hero__actions" data-reveal>
+          <a href="#book" class="btn btn--primary btn--lg">Book Your Detail</a>
+          <a href="#transformations" class="btn btn--ghost btn--lg">View Transformations</a>
+        </div>
+      </div>
+
+      <div class="hero__scrollcue" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="hero__scrollline"></span>
+      </div>
+    </section>
+
+    <!-- ============ TRUST BAR ============ -->
+    <section class="trustbar" aria-label="Why drivers trust us">
+      <div class="container trustbar__grid">
+        <div class="trust" data-reveal>
+          <span class="trust__num">5.0</span>
+          <span class="trust__label">Star Rating <span class="trust__stars" aria-hidden="true">★★★★★</span></span>
+        </div>
+        <div class="trust" data-reveal>
+          <span class="trust__num">40<span class="trust__plus">+</span></span>
+          <span class="trust__label">5-Star Reviews</span>
+        </div>
+        <div class="trust" data-reveal>
+          <span class="trust__num">100<span class="trust__plus">%</span></span>
+          <span class="trust__label">Mobile — We Come To You</span>
+        </div>
+        <div class="trust" data-reveal>
+          <span class="trust__num">Safe</span>
+          <span class="trust__label">Paint-Conscious Methods</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PHILOSOPHY ============ -->
+    <section class="philosophy" aria-labelledby="phil-title">
+      <div class="container philosophy__inner">
+        <p class="eyebrow eyebrow--center" data-reveal>Our Standard</p>
+        <h2 id="phil-title" class="section-title" data-reveal>
+          The Difference Is<br />In The <em>Details</em>
+        </h2>
+        <p class="philosophy__lead" data-reveal>
+          Anyone can rinse a car. We protect it. Every panel, every seam, every
+          reflection — handled with the patience and precision your vehicle was
+          engineered with. No shortcuts. No volume lines. Just care.
+        </p>
+        <div class="pillars">
+          <article class="pillar" data-reveal>
+            <span class="pillar__no">01</span>
+            <h3>Obsessive Attention</h3>
+            <p>We work in inches, not minutes. The details others rush past are exactly where we slow down.</p>
+          </article>
+          <article class="pillar" data-reveal>
+            <span class="pillar__no">02</span>
+            <h3>Paint-Safe Process</h3>
+            <p>pH-balanced products, plush microfiber, controlled technique — methods chosen to prevent swirls, not cause them.</p>
+          </article>
+          <article class="pillar" data-reveal>
+            <span class="pillar__no">03</span>
+            <h3>Treated As Our Own</h3>
+            <p>Your Tesla, truck, or family SUV is in trusted hands. We earn that trust on every single visit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESLA ============ -->
+    <section class="tesla" id="tesla" aria-labelledby="tesla-title">
+      <div class="container tesla__grid">
+        <div class="tesla__copy">
+          <p class="eyebrow" data-reveal>Where Our Process Got Sharp</p>
+          <h2 id="tesla-title" class="section-title section-title--left" data-reveal>
+            Trusted By<br /><em>Tesla Owners</em>
+          </h2>
+          <p class="tesla__lead" data-reveal>
+            Tesla finishes are unforgiving — soft clear coats, swirl-prone paint,
+            and those white interiors that show everything. Learning to care for
+            them the right way made us better at every vehicle we touch.
+          </p>
+          <ul class="ticklist" data-reveal>
+            <li>Swirl-conscious wash &amp; dry technique</li>
+            <li>White seat restoration &amp; protection</li>
+            <li>Interior decontamination — done safely</li>
+            <li>Finishes that protect long-term resale value</li>
+          </ul>
+          <p class="tesla__note" data-reveal>The same care goes into every truck, SUV and daily driver we detail.</p>
+          <a href="#book" class="btn btn--primary" data-reveal>Protect Your Tesla</a>
+        </div>
+        <div class="tesla__visual" data-reveal>
+          <div class="tesla__panel">
+            <span class="tesla__badge">PAINT-SAFE PROCESS</span>
+            <picture class="tesla__photo">
+              <source type="image/webp" srcset="assets/img/02_tesla_model_y_performance_exterior.webp" />
+              <img src="assets/img/02_tesla_model_y_performance_exterior.jpg" alt="Freshly detailed black Tesla Model Y in a residential driveway at golden hour" width="1920" height="1081" loading="lazy" decoding="async" />
+            </picture>
+            <div class="tesla__gloss"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRANSFORMATIONS (Before/After) ============ -->
+    <section class="transform" id="transformations" aria-labelledby="tf-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--center" data-reveal>The Proof</p>
+        <h2 id="tf-title" class="section-title" data-reveal>
+          Before &amp; <em>After</em>
+        </h2>
+        <p class="transform__lead" data-reveal>
+          Drag to reveal the difference — the same white Tesla seats, before and
+          after. This is what obsessive detailing looks like.
+        </p>
+
+        <div class="ba" data-reveal data-ba role="group" aria-label="Before and after comparison of a detailed Tesla interior">
+          <div class="ba__img ba__img--after">
+            <picture class="ba__media">
+              <source type="image/webp" srcset="assets/img/06_tesla_white_interior_after.webp" />
+              <img src="assets/img/06_tesla_white_interior_after.jpg" alt="Tesla white interior restored to bright, spotless condition after detailing" width="1920" height="1081" loading="lazy" decoding="async" />
+            </picture>
+            <span class="ba__tag ba__tag--after">After</span>
+          </div>
+          <div class="ba__img ba__img--before" data-ba-before>
+            <picture class="ba__media">
+              <source type="image/webp" srcset="assets/img/05_tesla_white_interior_before.webp" />
+              <img src="assets/img/05_tesla_white_interior_before.jpg" alt="Tesla white interior showing dirt and staining before detailing" width="1920" height="1081" loading="lazy" decoding="async" />
+            </picture>
+            <span class="ba__tag ba__tag--before">Before</span>
+          </div>
+          <div class="ba__handle" data-ba-handle>
+            <span class="ba__line"></span>
+            <span class="ba__grip" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 6l-4 6 4 6M15 6l4 6-4 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+          <input class="ba__range" type="range" min="0" max="100" value="50" data-ba-range aria-label="Reveal before or after image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services" aria-labelledby="svc-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--center" data-reveal>What We Offer</p>
+        <h2 id="svc-title" class="section-title" data-reveal>Choose Your <em>Experience</em></h2>
+        <div class="svc-grid">
+          <article class="svc" data-reveal>
+            <h3 class="svc__name">Signature Interior</h3>
+            <p class="svc__desc">A full reset of your cabin — extracted, conditioned, and protected. Every vent, seam, and surface.</p>
+            <ul class="svc__list">
+              <li>Deep extraction &amp; steam</li>
+              <li>Leather clean &amp; condition</li>
+              <li>Glass, vents &amp; trim detail</li>
+            </ul>
+          </article>
+          <article class="svc svc--feature" data-reveal>
+            <span class="svc__flag">Most Loved</span>
+            <h3 class="svc__name">Full Premium Detail</h3>
+            <p class="svc__desc">Interior and exterior brought to showroom condition. Our complete, no-shortcuts experience.</p>
+            <ul class="svc__list">
+              <li>Everything in Interior &amp; Exterior</li>
+              <li>Paint decontamination</li>
+              <li>Protective sealant finish</li>
+            </ul>
+          </article>
+          <article class="svc" data-reveal>
+            <h3 class="svc__name">Exterior &amp; Paint</h3>
+            <p class="svc__desc">Swirl-conscious wash, decontamination, and a deep protective gloss that lasts.</p>
+            <ul class="svc__list">
+              <li>pH-balanced hand wash</li>
+              <li>Wheels, tires &amp; trim</li>
+              <li>Sealant &amp; gloss enhancement</li>
+            </ul>
+          </article>
+        </div>
+        <p class="services__note" data-reveal>Custom packages available. Pricing tailored to your vehicle and condition.</p>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" aria-labelledby="gal-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--center" data-reveal>The Work</p>
+        <h2 id="gal-title" class="section-title" data-reveal>Let It <em>Speak</em></h2>
+      </div>
+      <div class="gallery__strip">
+        <figure class="shot shot--feature" data-reveal>
+          <picture class="shot__media">
+            <source type="image/webp" srcset="assets/img/03_ford_f150_lariat_supercrew_exterior.webp" />
+            <img class="shot__img" src="assets/img/03_ford_f150_lariat_supercrew_exterior.jpg" alt="Detailed black Ford F-150 Lariat SuperCrew in a driveway" width="1920" height="1081" loading="lazy" decoding="async" />
+          </picture>
+          <span class="shot__label">Trucks</span>
+        </figure>
+        <figure class="shot shot--feature" data-reveal>
+          <picture class="shot__media">
+            <source type="image/webp" srcset="assets/img/08_mobile_detailing_appointment_scene.webp" />
+            <img class="shot__img" src="assets/img/08_mobile_detailing_appointment_scene.jpg" alt="Rio.Details mobile detailing van servicing vehicles at a customer's home" width="1920" height="1440" loading="lazy" decoding="async" />
+          </picture>
+          <span class="shot__label">Mobile Service</span>
+        </figure>
+        <figure class="shot" data-reveal>
+          <picture class="shot__media">
+            <source type="image/webp" srcset="assets/img/09_tesla_premium_interior_lifestyle.webp" />
+            <img class="shot__img" src="assets/img/09_tesla_premium_interior_lifestyle.jpg" alt="Clean, bright Tesla interior with white seats after a full detail" width="1920" height="1081" loading="lazy" decoding="async" />
+          </picture>
+          <span class="shot__label">Interior</span>
+        </figure>
+        <figure class="shot" data-reveal>
+          <picture class="shot__media">
+            <source type="image/webp" srcset="assets/img/07_f150_black_paint_reflection_macro.webp" />
+            <img class="shot__img" src="assets/img/07_f150_black_paint_reflection_macro.jpg" alt="Mirror-finish reflection in freshly polished black paint" width="1920" height="1440" loading="lazy" decoding="async" />
+          </picture>
+          <span class="shot__label">Paint Reflection</span>
+        </figure>
+        <figure class="shot" data-reveal>
+          <picture class="shot__media">
+            <source type="image/webp" srcset="assets/img/02_tesla_model_y_performance_exterior.webp" />
+            <img class="shot__img" src="assets/img/02_tesla_model_y_performance_exterior.jpg" alt="Detailed black Tesla Model Y in a driveway" width="1920" height="1081" loading="lazy" decoding="async" />
+          </picture>
+          <span class="shot__label">Tesla</span>
+        </figure>
+        <figure class="shot" data-reveal>
+          <picture class="shot__media">
+            <source type="image/webp" srcset="assets/img/04_family_suv_detailing_exterior.webp" />
+            <img class="shot__img" src="assets/img/04_family_suv_detailing_exterior.jpg" alt="Detailed family SUV parked in a driveway" width="1920" height="1081" loading="lazy" decoding="async" />
+          </picture>
+          <span class="shot__label">Family SUVs</span>
+        </figure>
+      </div>
+      <p class="gallery__caption container" data-reveal>Real vehicles. Real results. Every one treated like our own.</p>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews" aria-labelledby="rev-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--center" data-reveal>Trusted By Drivers Like You</p>
+        <h2 id="rev-title" class="section-title" data-reveal>What Owners <em>Say</em></h2>
+        <div class="rev-grid">
+          <figure class="rev" data-reveal>
+            <div class="rev__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>They treated my Model 3 like it was worth a million dollars. Not a single swirl, and the white seats look brand new. I won't take it anywhere else.</blockquote>
+            <figcaption><span class="rev__name">Marcus T.</span><span class="rev__meta">Tesla Model 3 · Royal Oak</span></figcaption>
+          </figure>
+          <figure class="rev" data-reveal>
+            <div class="rev__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>Showed up on time, completely professional, and my Telluride has never looked this good — not even from the dealer. The convenience of mobile is unreal.</blockquote>
+            <figcaption><span class="rev__name">Danielle R.</span><span class="rev__meta">Kia Telluride · Berkley</span></figcaption>
+          </figure>
+          <figure class="rev" data-reveal>
+            <div class="rev__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>You can tell they actually care. They explained everything, took their time, and the attention to detail is on another level. Worth every dollar.</blockquote>
+            <figcaption><span class="rev__name">Anthony G.</span><span class="rev__meta">Ford F-150 · Warren</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BEYOND THE DETAIL — ownership ecosystem ============ -->
+    <section class="beyond" id="beyond" aria-labelledby="beyond-title">
+      <div class="container beyond__intro">
+        <p class="eyebrow eyebrow--center" data-reveal>Beyond The Detail</p>
+        <h2 id="beyond-title" class="section-title" data-reveal>
+          We Don't Just Clean Vehicles.<br />We Help <em>Maintain</em> Them.
+        </h2>
+        <p class="beyond__lead" data-reveal>
+          Every vehicle tells a story. Rio.Details keeps track of your vehicle's
+          condition, previous services, recommendations, and future maintenance
+          needs — so you're not just detailed once, you're looked after for the
+          life of the car.
+        </p>
+      </div>
+
+      <!-- Journey rail -->
+      <div class="container">
+        <ol class="journey" data-reveal aria-label="Your ownership journey with Rio.Details">
+          <li class="journey__node"><span class="journey__dot"></span><span class="journey__label">Discovery</span></li>
+          <li class="journey__node"><span class="journey__dot"></span><span class="journey__label">First Booking</span></li>
+          <li class="journey__node"><span class="journey__dot"></span><span class="journey__label">First Detail</span></li>
+          <li class="journey__node"><span class="journey__dot"></span><span class="journey__label">Care Report</span></li>
+          <li class="journey__node"><span class="journey__dot"></span><span class="journey__label">Maintenance Guidance</span></li>
+          <li class="journey__node"><span class="journey__dot"></span><span class="journey__label">Repeat Visits</span></li>
+          <li class="journey__node journey__node--gold"><span class="journey__dot"></span><span class="journey__label">Rio Preferred</span></li>
+          <li class="journey__node journey__node--gold"><span class="journey__dot"></span><span class="journey__label">Long-Term Loyalty</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ VEHICLE PROFILE ============ -->
+    <section class="vprofile" aria-labelledby="vp-title">
+      <div class="container vprofile__grid">
+        <div class="vprofile__copy">
+          <p class="eyebrow" data-reveal>Your Vehicle, Remembered</p>
+          <h2 id="vp-title" class="section-title section-title--left" data-reveal>
+            A Living Profile<br />For Every <em>Vehicle</em>
+          </h2>
+          <p class="vprofile__lead" data-reveal>
+            From your first visit, your vehicle gets its own profile — condition,
+            history, the little things that matter. Think Apple Wallet, but for
+            your vehicle's care. The next time we arrive, we already know
+            your car.
+          </p>
+          <ul class="ticklist" data-reveal>
+            <li>We remember your paint and interior sensitivities</li>
+            <li>Every service is logged and timestamped</li>
+            <li>Recommendations tailored to your exact vehicle</li>
+          </ul>
+        </div>
+
+        <div class="vprofile__visual" data-reveal>
+          <article class="vpcard" aria-label="Vehicle profile example">
+            <div class="vpcard__top">
+              <div>
+                <span class="vpcard__brand">RIO<span class="brand__dot">.</span>DETAILS</span>
+                <span class="vpcard__label">Vehicle Profile</span>
+              </div>
+              <span class="vpcard__chip" aria-hidden="true">
+                <svg viewBox="0 0 32 22" width="30" height="20"><rect x="1" y="1" width="30" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.6"/><path d="M11 1v20M21 1v20M1 8h30M1 14h30" stroke="currentColor" stroke-width="1" opacity="0.4"/></svg>
+              </span>
+            </div>
+            <h3 class="vpcard__vehicle">2024 Tesla Model Y</h3>
+            <div class="vpcard__meta">
+              <span>Last Service<strong>June 2026</strong></span>
+              <span>Next Suggested<strong class="is-accent">August 2026</strong></span>
+            </div>
+
+            <div class="vpcard__cols">
+              <div class="vpcard__block">
+                <p class="vpcard__h">Service History</p>
+                <ul class="vpcard__checks">
+                  <li>Interior Detail</li>
+                  <li>Exterior Detail</li>
+                </ul>
+              </div>
+              <div class="vpcard__block">
+                <p class="vpcard__h">Vehicle Notes</p>
+                <ul class="vpcard__checks">
+                  <li>White Seats</li>
+                  <li>Sensitive Paint</li>
+                  <li>Excellent Interior Condition</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="vpcard__block">
+              <p class="vpcard__h">Recommendations</p>
+              <ul class="vpcard__recos">
+                <li>Maintenance Detail</li>
+                <li>Paint Correction</li>
+                <li>Ceramic Coating</li>
+              </ul>
+            </div>
+
+            <div class="vpcard__shine" aria-hidden="true"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VEHICLE CARE REPORT ============ -->
+    <section class="care" aria-labelledby="care-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--center" data-reveal>After Every Detail</p>
+        <h2 id="care-title" class="section-title" data-reveal>Not An Invoice.<br />A <em>Vehicle Care Report</em>.</h2>
+        <p class="care__lead" data-reveal>
+          When we finish, you don't get a receipt — you get a consultant's report.
+          Exactly what we did, what we noticed, and how to protect your investment next.
+        </p>
+
+        <article class="report" data-reveal aria-label="Vehicle Care Report example">
+          <header class="report__head">
+            <div>
+              <span class="report__brand">RIO<span class="brand__dot">.</span>DETAILS</span>
+              <span class="report__title">Vehicle Care Report</span>
+            </div>
+            <div class="report__for">
+              <strong>2024 Tesla Model Y</strong>
+              <span>Completed June 2026 · Ref RD-2041</span>
+            </div>
+          </header>
+
+          <div class="report__grid">
+            <div class="report__col">
+              <div class="report__block">
+                <p class="report__h">Service Performed</p>
+                <ul class="ticklist ticklist--tight">
+                  <li>Full interior deep clean &amp; protect</li>
+                  <li>Exterior hand wash &amp; sealant</li>
+                  <li>White seat restoration</li>
+                </ul>
+              </div>
+              <div class="report__block">
+                <p class="report__h">Vehicle Observations</p>
+                <ul class="report__obs">
+                  <li><span class="dot dot--good"></span>Interior in excellent condition</li>
+                  <li><span class="dot dot--watch"></span>Light swirling on driver door</li>
+                  <li><span class="dot dot--watch"></span>Front bumper rock chips beginning</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="report__col">
+              <div class="report__block">
+                <p class="report__h">Before &amp; After</p>
+                <div class="report__shots">
+                  <figure class="rshot rshot--before">
+                    <picture class="rshot__media">
+                      <source type="image/webp" srcset="assets/img/05_tesla_white_interior_before.webp" />
+                      <img src="assets/img/05_tesla_white_interior_before.jpg" alt="Tesla interior before detailing" width="1920" height="1081" loading="lazy" decoding="async" />
+                    </picture>
+                    <span>Before</span>
+                  </figure>
+                  <figure class="rshot rshot--after">
+                    <picture class="rshot__media">
+                      <source type="image/webp" srcset="assets/img/06_tesla_white_interior_after.webp" />
+                      <img src="assets/img/06_tesla_white_interior_after.jpg" alt="Tesla interior after detailing" width="1920" height="1081" loading="lazy" decoding="async" />
+                    </picture>
+                    <span>After</span>
+                  </figure>
+                </div>
+              </div>
+              <div class="report__block">
+                <p class="report__h">Recommended Next</p>
+                <ul class="vpcard__recos">
+                  <li>Paint correction for door swirling</li>
+                  <li>Ceramic coating to protect resale value</li>
+                  <li>Maintenance detail in ~8 weeks</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <footer class="report__foot">
+            <span>Prepared by Rio.Details — your long-term vehicle care partner</span>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ MAINTENANCE INTELLIGENCE ============ -->
+    <section class="mintel" aria-labelledby="mi-title">
+      <div class="container mintel__grid">
+        <div class="mintel__copy">
+          <p class="eyebrow" data-reveal>Quietly Looking Out For You</p>
+          <h2 id="mi-title" class="section-title section-title--left" data-reveal>
+            Maintenance<br /><em>Intelligence</em>
+          </h2>
+          <p class="mintel__lead" data-reveal>
+            Your vehicle's profile knows when it's time. We reach out only when it
+            genuinely helps — a thoughtful nudge, never a sales pitch. No spam,
+            no pressure. Just a partner paying attention.
+          </p>
+        </div>
+        <div class="mintel__feed" data-reveal>
+          <div class="mnote">
+            <span class="mnote__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <p class="mnote__body">It's been <strong>63 days</strong> since your last maintenance detail.</p>
+              <span class="mnote__meta">Your Tesla Model Y · gentle reminder</span>
+            </div>
+          </div>
+          <div class="mnote">
+            <span class="mnote__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <p class="mnote__body">Your vehicle may be ready for its next <strong>interior maintenance service</strong>.</p>
+              <span class="mnote__meta">Recommended based on your previous visit</span>
+            </div>
+          </div>
+          <div class="mnote">
+            <span class="mnote__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18"><path d="M4 13a8 8 0 0 1 16 0M2 13h20M7 13a5 5 0 0 1 10 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <div>
+              <p class="mnote__body">Winter's coming — a <strong>seasonal protection detail</strong> keeps your paint safe through the salt.</p>
+              <span class="mnote__meta">Seasonal care · optional, whenever you're ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RIO PREFERRED ============ -->
+    <section class="preferred" id="preferred" aria-labelledby="pref-title">
+      <div class="preferred__glow" aria-hidden="true"></div>
+      <div class="container preferred__grid">
+        <div class="preferred__visual" data-reveal>
+          <article class="memcard" aria-label="Rio Preferred membership card">
+            <div class="memcard__sheen" aria-hidden="true"></div>
+            <div class="memcard__top">
+              <span class="memcard__brand">RIO<span class="brand__dot">.</span>DETAILS</span>
+              <span class="memcard__tier">PREFERRED</span>
+            </div>
+            <p class="memcard__name">Marcus Tan</p>
+            <div class="memcard__bottom">
+              <span>Member Since<strong>2026</strong></span>
+              <span class="memcard__id">No. 0042</span>
+            </div>
+          </article>
+        </div>
+        <div class="preferred__copy">
+          <p class="eyebrow" data-reveal>Earned Through Loyalty</p>
+          <h2 id="pref-title" class="section-title section-title--left" data-reveal>Rio <em>Preferred</em></h2>
+          <p class="preferred__lead" data-reveal>
+            For the drivers who care most. Not a discount club — a standing you
+            earn by coming back. Preferred isn't about saving a few dollars. It's
+            about being looked after first.
+          </p>
+          <ul class="benefits" data-reveal>
+            <li><span class="benefits__mark" aria-hidden="true"></span><div><strong>Priority Scheduling</strong><span>Your appointments come first.</span></div></li>
+            <li><span class="benefits__mark" aria-hidden="true"></span><div><strong>Vehicle History Tracking</strong><span>A complete, living record of your car's care.</span></div></li>
+            <li><span class="benefits__mark" aria-hidden="true"></span><div><strong>Seasonal Care Reminders</strong><span>Protected through every Michigan season.</span></div></li>
+            <li><span class="benefits__mark" aria-hidden="true"></span><div><strong>First Access To New Services</strong><span>You hear about new offerings before anyone else.</span></div></li>
+            <li><span class="benefits__mark" aria-hidden="true"></span><div><strong>Complimentary Annual Touch-Up</strong><span>Our gift, once a year.</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REFERRAL ============ -->
+    <section class="referral" aria-labelledby="ref-title">
+      <div class="container referral__inner" data-reveal>
+        <p class="eyebrow eyebrow--center">Share The Standard</p>
+        <h2 id="ref-title" class="section-title">
+          Know Someone Who Cares About<br />Their Vehicle As Much As <em>You Do</em>?
+        </h2>
+        <p class="referral__lead">
+          The best drivers know other drivers who get it. Introduce them to
+          Rio.Details — and you'll both enjoy Rio Preferred benefits.
+        </p>
+        <div class="referral__share">
+          <div class="referral__link">
+            <span class="referral__url" data-ref-url>rio.details/invite/marcus</span>
+            <button type="button" class="btn btn--primary referral__copy" data-ref-copy>Copy Invite</button>
+          </div>
+          <p class="referral__note" data-ref-status role="status" aria-live="polite">A personal invite link — share it however you like.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING CTA ============ -->
+    <section class="book" id="book" aria-labelledby="book-title">
+      <div class="book__glow" aria-hidden="true"></div>
+      <div class="container book__inner">
+        <p class="eyebrow eyebrow--center" data-reveal>Ready When You Are</p>
+        <h2 id="book-title" class="book__title" data-reveal>
+          Give Your Vehicle<br />The Detail It <em>Deserves</em>
+        </h2>
+        <p class="book__sub" data-reveal>
+          We come to you anywhere in Metro Detroit. Pick a time below — you'll be
+          booked in under a minute, with a confirmation on its way.
+        </p>
+
+        <div class="booker" data-reveal data-booker>
+          <!-- Progress -->
+          <ol class="booker__steps" aria-hidden="true">
+            <li class="is-active" data-step-dot="1"><span>1</span> Service &amp; Time</li>
+            <li data-step-dot="2"><span>2</span> Your Details</li>
+            <li data-step-dot="3"><span>✓</span> Confirmed</li>
+          </ol>
+
+          <form class="booker__form" data-book-form novalidate>
+
+            <!-- STEP 1 -->
+            <div class="booker__step is-active" data-step="1">
+              <fieldset class="bk-group">
+                <legend>Choose your service</legend>
+                <div class="chip-row" role="radiogroup" aria-label="Service">
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-service data-price="From $189">
+                    <span class="chip__title">Signature Interior</span>
+                    <span class="chip__meta">From $189 · ~2 hrs</span>
+                  </button>
+                  <button type="button" class="chip is-selected" role="radio" aria-checked="true" data-service data-price="From $299">
+                    <span class="chip__title">Full Premium Detail</span>
+                    <span class="chip__meta">From $299 · ~4 hrs</span>
+                    <span class="chip__flag">Most Loved</span>
+                  </button>
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-service data-price="From $149">
+                    <span class="chip__title">Exterior &amp; Paint</span>
+                    <span class="chip__meta">From $149 · ~2 hrs</span>
+                  </button>
+                </div>
+              </fieldset>
+
+              <div class="bk-row">
+                <div class="field">
+                  <label for="bk-vehicle">Vehicle</label>
+                  <input id="bk-vehicle" name="vehicle" type="text" required placeholder="e.g. Tesla Model Y" />
+                </div>
+                <div class="field">
+                  <label for="bk-date">Date</label>
+                  <input id="bk-date" name="date" type="date" required />
+                </div>
+              </div>
+
+              <fieldset class="bk-group">
+                <legend>Pick a time <span class="bk-hint" data-slot-hint>Select a date first</span></legend>
+                <div class="chip-row chip-row--times" role="radiogroup" aria-label="Time" data-slots></div>
+              </fieldset>
+
+              <button type="button" class="btn btn--primary btn--lg booker__next" data-next>Continue</button>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="booker__step" data-step="2">
+              <div class="bk-row">
+                <div class="field">
+                  <label for="bk-name">Name</label>
+                  <input id="bk-name" name="name" type="text" autocomplete="name" required placeholder="Your name" />
+                </div>
+                <div class="field">
+                  <label for="bk-phone">Phone</label>
+                  <input id="bk-phone" name="phone" type="tel" autocomplete="tel" required placeholder="(248) 555-0100" />
+                </div>
+              </div>
+              <div class="field">
+                <label for="bk-email">Email <span class="bk-hint">for your confirmation</span></label>
+                <input id="bk-email" name="email" type="email" autocomplete="email" required placeholder="you@email.com" />
+              </div>
+              <div class="field">
+                <label for="bk-address">Service address <span class="bk-hint">where we'll meet your vehicle</span></label>
+                <input id="bk-address" name="address" type="text" autocomplete="street-address" required placeholder="Street, City" />
+              </div>
+
+              <div class="booker__summary" data-summary aria-live="polite"></div>
+
+              <div class="booker__actions">
+                <button type="button" class="btn btn--ghost" data-back>Back</button>
+                <button type="submit" class="btn btn--primary booker__confirm">Confirm Booking</button>
+              </div>
+            </div>
+
+            <!-- STEP 3 — confirmation -->
+            <div class="booker__step booker__step--done" data-step="3">
+              <div class="confirm">
+                <div class="confirm__check" aria-hidden="true">
+                  <svg viewBox="0 0 52 52" width="52" height="52"><circle cx="26" cy="26" r="24" fill="none" stroke="currentColor" stroke-width="2" opacity="0.35"/><path d="M16 27l7 7 14-15" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <h3 class="confirm__title">You're booked.</h3>
+                <p class="confirm__sub" data-confirm-sub></p>
+                <div class="confirm__card" data-confirm-card></div>
+
+                <!-- Simulated notifications -->
+                <div class="notify" data-notify>
+                  <p class="notify__head">What happens next</p>
+                  <div class="notify__row">
+                    <span class="notify__icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="18" height="18"><rect x="3" y="5" width="18" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <div class="notify__text">
+                      <strong>Confirmation email</strong>
+                      <span data-notify-email-to></span>
+                    </div>
+                    <span class="notify__pill" data-notify-email-status>Ready</span>
+                  </div>
+                  <div class="notify__row">
+                    <span class="notify__icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="18" height="18"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L4 20l1-4.4A8.5 8.5 0 1 1 21 11.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                    </span>
+                    <div class="notify__text">
+                      <strong>Text reminder — the day before</strong>
+                      <span data-notify-sms-to></span>
+                    </div>
+                    <span class="notify__pill" data-notify-sms-status>Scheduled</span>
+                  </div>
+                  <div class="notify__actions">
+                    <button type="button" class="btn btn--primary" data-send>Send Confirmation Now</button>
+                    <button type="button" class="btn btn--ghost" data-toggle-preview aria-expanded="false">Preview Messages</button>
+                  </div>
+                  <p class="notify__demo">Demo mode — this is exactly what your customer would receive. Nothing is actually sent yet.</p>
+                </div>
+
+                <!-- Message previews -->
+                <div class="previews" data-previews hidden>
+                  <figure class="mail" aria-label="Confirmation email preview">
+                    <figcaption class="mail__bar">
+                      <span class="mail__avatar" aria-hidden="true">R</span>
+                      <span class="mail__id">
+                        <strong>Rio.Details</strong>
+                        <span class="mail__addr" data-mail-from>hello@rio.details</span>
+                      </span>
+                      <span class="mail__time">now</span>
+                    </figcaption>
+                    <p class="mail__subject" data-mail-subject></p>
+                    <div class="mail__body" data-mail-body></div>
+                  </figure>
+
+                  <figure class="phone" aria-label="Text reminder preview">
+                    <figcaption class="phone__head">Rio.Details · Text</figcaption>
+                    <div class="phone__screen">
+                      <div class="phone__bubble" data-sms-body></div>
+                      <span class="phone__stamp">Sent the day before your appointment</span>
+                    </div>
+                  </figure>
+                </div>
+
+                <div class="confirm__actions">
+                  <a class="btn btn--primary" data-ics download="rio-details-appointment.ics">Add to Calendar</a>
+                  <button type="button" class="btn btn--ghost" data-book-again>Book Another</button>
+                </div>
+              </div>
+            </div>
+
+            <p class="book__status" data-book-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="brand brand--footer">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">RIO<span class="brand__dot">.</span>DETAILS</span>
+      </a>
+      <p class="footer__tag">Premium mobile detailing — Metro Detroit, Michigan</p>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#tesla">Tesla</a>
+        <a href="#transformations">Transformations</a>
+        <a href="#services">Services</a>
+        <a href="#book">Book</a>
+      </nav>
+      <p class="footer__copy">© <span data-year></span> Rio.Details. Concept presentation. All vehicles treated as our own.</p>
+      <a class="footer__owner" href="admin.html">Owner Access</a>
+    </div>
+  </footer>
+
+  <script src="js/store.js?v=2"></script>
+  <script src="js/main.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>
